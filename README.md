@@ -24,9 +24,9 @@ Data are publicly available at [http://simba.roe.ac.uk/simdata/](http://simba.ro
 
 ## Overview
 
-- `functions.py`: reusable helper functions used across notebooks
-- `notebooks/`: jupyter notebooks containing analyses
-- `environment.yml` → environment setup
+- `functions.py` : functions used across notebooks
+- `notebooks/` : jupyter notebooks containing analyses
+- `environment.yml` : environment setup
 
 
 ## Setup
