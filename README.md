@@ -4,7 +4,6 @@ The objective is to analyse the galaxy clustering dependence on three galaxy pro
 ---
 
 ## Description
-
 The ultimate goal is to analyse the relationship between galaxy properties and the clustering of these galaxies. This project includes:
 - measurements of galaxy clustering as a function of colour, sSFR and age using the two-point correlation function.
 
@@ -16,14 +15,12 @@ Projected correlation fucntion: $$w(r_p) = 2\int_{0}^{\infty} d\pi \xi(r_p, \pi)
 
 
 ## Data
-
 We use output data from the [SIMBA](http://simba.roe.ac.uk/) cosmological simulation.
 [CAESAR](https://caesar.readthedocs.io/en/latest/) is the pythoon package that was developed to specifically analyse outputs from cosmological simulations. Taking a SIMBA snapshot as input, CAESAR outputs a compact and portable hdf5 catalogue that contains all galaxy and halo information with various pre-computed key properties.
 Data are publicly available at [http://simba.roe.ac.uk/simdata/](http://simba.roe.ac.uk/simdata/).
 
 
 ## Overview
-
 - `functions.py` : functions used across notebooks
 - `notebooks/` : jupyter notebooks containing analyses
 - `environment.yml` : environment setup
@@ -31,14 +28,11 @@ Data are publicly available at [http://simba.roe.ac.uk/simdata/](http://simba.ro
 
 
 ## Setup
-
 ### Create environment
 ```bash
 conda env create -f environment.yml
 conda activate caesar_env
 ```
-
-### Additional installation steps
 #### Install pygadgetreader
 ```bash
 git clone https://github.com/dnarayanan/pygadgetreader.git
@@ -54,7 +48,6 @@ python setup.py install
 ```
 
 ## Requirements
-
 - Python 3.10
 - Jupyter Notebook
 - Packages listed in `requirements.txt`
