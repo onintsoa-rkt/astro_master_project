@@ -27,6 +27,7 @@ Data are publicly available at [http://simba.roe.ac.uk/simdata/](http://simba.ro
 - `functions.py` : functions used across notebooks
 - `notebooks/` : jupyter notebooks containing analyses
 - `environment.yml` : environment setup
+- report.pdf : document with all the details about the project
 
 
 ## Setup
