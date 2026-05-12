@@ -10,7 +10,7 @@ The ultimate goal is to analyse the relationship between galaxy properties and t
 
 Landy-Szalay estimator: $$\xi_{LS}(r) = \dfrac{DD-2DR+RR}{RR}$$
 
-Projected correlation fucntion: $$w(r_p) = 2\int_{0}^{\infty} d\pi \;\xi(r_p, \pi)$$
+Projected correlation fucntion: $$w(r_p) = 2\int_{0}^{\infty} d\pi \xi(r_p, \pi)$$
 
 - different data analysis including resolution analysis, interpolation and oversampling, statistical analysis, comparison of replicated data with real data, comparison of results with simulation boxes of different sizes, comparison of different uncertainty estimations.
 
