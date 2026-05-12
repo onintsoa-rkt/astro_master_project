@@ -1,4 +1,4 @@
-The title of this project is ``Environment and galaxy properties with Simba".
+The title of this project is "Environment and galaxy properties with Simba".
 The objective is to analyse the galaxy clustering dependence on three galaxy properties (colour, specific star formation rate and age).
 
 ---
