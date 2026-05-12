@@ -1,7 +1,7 @@
 The title of this project is ``Environment and galaxy properties with Simba".
 The objective is to analyse the galaxy clustering dependence on three galaxy properties (colour, specific star formation rate and age).
 
------
+---
 
 ## What this project is about ?
 
@@ -14,7 +14,7 @@ Projected correlation fucntion: $$w(r_p) = 2\int_{0}^{\infty} d\pi \xi(r_p, \pi)
 
 - different data analysis including resolution analysis, interpolation and oversampling, statistical analysis, comparison of replicated data with real data, comparison of results with simulation boxes of different sizes, comparison of different uncertainty estimations.
 
------
+---
 
 ## What is the data ?
 
@@ -29,7 +29,7 @@ Data are publicly available at [http://simba.roe.ac.uk/simdata/](http://simba.ro
 - `notebooks/`: jupyter notebooks containing analyses
 - `environment.yml` → environment setup
 
------
+---
 
 ## How to run this project ?
 
@@ -38,8 +38,6 @@ Data are publicly available at [http://simba.roe.ac.uk/simdata/](http://simba.ro
 conda env create -f environment.yml
 conda activate caesar_env
 ```
-
----
 
 ### Additional installation steps
 #### Install pygadgetreader
